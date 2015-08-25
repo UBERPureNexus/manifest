@@ -5,7 +5,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <remote name="nexus"
-           fetch="https://github.com/PureNexus/" /> 
+           fetch="https://github.com/PureNexus/" />
+  <remote name="github"
+           fetch="https://github.com/" /> 
   <default revision="refs/tags/android-5.1.1_r12"
            remote="aosp"
            sync-j="4" />
@@ -25,7 +27,7 @@
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="nexus" revision="lp" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="nexus" revision="lp" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="nexus" revision="lp" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="nexus" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="github" revision="cm-12.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="nexus" revision="lp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="nexus" revision="lp" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="nexus" revision="lp" />
