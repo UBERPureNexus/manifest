@@ -58,7 +58,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="nexus" revision="lp" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="nexus" revision="lp" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="nexus" revision="lp" />
-  <project path="vendor/nexus" name="android_vendor_nexus" remote="nexus" revision="lp" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="ubernexus" revision="lp" />
   <project path="pngtools" name="pngtools" remote="ubernexus" revision="lp" />
   
   <!-- Devices Repo's -->
