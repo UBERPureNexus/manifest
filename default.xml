@@ -59,7 +59,7 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="nexus" revision="lp" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="nexus" revision="lp" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="ubernexus" revision="lp" />
-  <project path="pngtools" name="pngtools" remote="ubernexus" revision="lp" />
+  <project path="pngtools" name="pngtools" remote="ubernexus" revision="master" />
   
   <!-- Devices Repo's -->
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="nexus" revision="lp" groups="device,hammerhead" />
