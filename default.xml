@@ -11,7 +11,7 @@
   <remote name="nexus"
            fetch="https://github.com/PureNexus/" />
   <remote name="ubernexus"
-           fetch="https://github.com/PureNexus/" />
+           fetch="https://github.com/UBERPureNexus/" />
   <remote name="github"
            fetch="https://github.com/" />
   <remote name="cm"
