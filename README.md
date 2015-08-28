@@ -1,4 +1,4 @@
-The PureNexus Project
+The UBER Pure Nexus Project
 =====================
 
 Getting Started
@@ -10,7 +10,7 @@ To build PureNexus from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PureNexus/android_manifest.git -b lp
+	repo init -u https://github.com/UBERPureNexus/manifest.git -b lp
 
 Then to sync source, use this command:
 
@@ -29,7 +29,3 @@ After syncing is done, use these commands to build:
     4.) mka bacon
 
 Enjoy, Stick around for a while AOSP Building is Fun!!!
-
-[@BeansTown106](https://twitter.com/beanstown106) on Twitter
-
-[PureNexus Community](https://plus.google.com/u/0/communities/103055954354785266764) on Google+
